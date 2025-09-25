@@ -14,6 +14,7 @@
 #include <spi.h>
 #include <asm/io.h>
 #include <linux/bitops.h>
+#include <time.h>
 
 #define ALTERA_SPI_STATUS_RRDY_MSK	BIT(7)
 #define ALTERA_SPI_CONTROL_SSO_MSK	BIT(10)

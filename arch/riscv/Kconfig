@@ -8,6 +8,9 @@ choice
 	prompt "Target select"
 	optional
 
+config TARGET_AFRL_VERONICA
+	bool "Support AFRL Vexriscv Veronica"
+
 config TARGET_ANDES_AE350
 	bool "Support Andes ae350"
 
@@ -91,6 +94,7 @@ source "board/sophgo/milkv_duo/Kconfig"
 source "board/starfive/visionfive2/Kconfig"
 source "board/thead/th1520_lpi4a/Kconfig"
 source "board/xilinx/mbv/Kconfig"
+source "board/afrl/veronica/Kconfig"
 
 # platform-specific options below
 source "arch/riscv/cpu/andes/Kconfig"

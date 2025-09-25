@@ -1,0 +1,7 @@
+VexRISCV Veronica core
+M:	Jay Convertino <johnathan.convertino.1@us.af.mil>
+S:	Maintained
+F:	board/AFRL/veronica
+
+F:	include/configs/legoev3.h
+F:	configs/legoev3_defconfig
