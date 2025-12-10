@@ -8,9 +8,21 @@ choice
 	prompt "Target select"
 	optional
 
-config TARGET_AFRL_VERONICA
-	bool "Support AFRL Vexriscv Veronica"
+config TARGET_AFRL_GENESYS2_VERONICA
+	bool "Support AFRL GENESYS2 Vexriscv Veronica"
 
+config TARGET_AFRL_KC705_VERONICA
+	bool "Support AFRL KC705 Vexriscv Veronica"
+
+config TARGET_AFRL_NETFPGA-1G-FMC_VERONICA
+	bool "Support AFRL NETFPGA-1G-FMC Vexriscv Veronica"
+	
+config TARGET_AFRL_VC707_VERONICA
+	bool "Support AFRL VC707 Vexriscv Veronica"
+	
+config TARGET_AFRL_NEXYS_VERONICA
+	bool "Support AFRL NEXYS Vexriscv Veronica"
+	
 config TARGET_ANDES_AE350
 	bool "Support Andes ae350"
 

@@ -1,6 +1,10 @@
 # SPDX-License-Identifier: GPL-2.0+
 
-dtb-$(CONFIG_TARGET_AFRL_VERONICA) += afrl_veronica.dtb
+dtb-$(CONFIG_TARGET_AFRL_GENESYS2_VERONICA) += afrl_genesys2_veronica.dtb
+dtb-$(CONFIG_TARGET_AFRL_NEXYS_VERONICA) += afrl_nexys_veronica.dtb
+dtb-$(CONFIG_TARGET_AFRL_KC705_VERONICA) += afrl_kc705_veronica.dtb
+dtb-$(CONFIG_TARGET_AFRL_NETFPGA-1G-FMC_VERONICA) += afrl_netfpga-1G-fmc_veronica.dtb
+dtb-$(CONFIG_TARGET_AFRL_VC707_VERONICA) += afrl_vc707_veronica.dtb
 dtb-$(CONFIG_TARGET_ANDES_AE350) += ae350_32.dtb ae350_64.dtb
 dtb-$(CONFIG_TARGET_MICROCHIP_ICICLE) += mpfs-icicle-kit.dtb
 dtb-$(CONFIG_TARGET_MILKV_DUO) += cv1800b-milkv-duo.dtb
