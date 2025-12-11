@@ -14,8 +14,8 @@ config TARGET_AFRL_GENESYS2_VERONICA
 config TARGET_AFRL_KC705_VERONICA
 	bool "Support AFRL KC705 Vexriscv Veronica"
 
-config TARGET_AFRL_NETFPGA-1G-FMC_VERONICA
-	bool "Support AFRL NETFPGA-1G-FMC Vexriscv Veronica"
+config TARGET_AFRL_NETFPGA-1G-CML_VERONICA
+	bool "Support AFRL NETFPGA-1G-CML Vexriscv Veronica"
 	
 config TARGET_AFRL_VC707_VERONICA
 	bool "Support AFRL VC707 Vexriscv Veronica"
